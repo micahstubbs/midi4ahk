@@ -1,0 +1,30 @@
+﻿Build started 2/7/2015 2:02:19 PM.
+     1>Project "C:\ahk\midi4ahk\dll_source\midi_in.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release64\\" /Fd"x64\Release64\vc110.pdb" /Gd /TP /errorReport:prompt midi_in.cpp
+         midi_in.cpp
+     1>midi_in.cpp(59): warning C4244: '=' : conversion from 'DWORD' to 'BYTE', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.dll" /INCREMENTAL:NO /NOLOGO Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.lib" /MACHINE:X64 /DLL x64\Release64\midi_in.obj
+            Creating library C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.lib and object C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.exp
+         Generating code
+         Finished generating code
+         midi_in.vcxproj -> C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.dll
+       PostBuildEvent:
+         upx -9 "C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.dll"
+         copy "C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.dll" "C:\bin\ahk script\midi\"
+         
+         :VCEnd
+         'upx' is not recognized as an internal or external command,
+         operable program or batch file.
+         The system cannot find the path specified.
+                 0 file(s) copied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: The command "upx -9 "C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.dll"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: copy "C:\ahk\midi4ahk\dll_source\x64\Release64\midi_in.dll" "C:\bin\ahk script\midi\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\ahk\midi4ahk\dll_source\midi_in.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.85
