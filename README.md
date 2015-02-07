@@ -6,6 +6,8 @@ this repo adds a 64 bit **midi_in.dll**
 
 ##
 
+[![Join the chat at https://gitter.im/micahstubbs/midi4ahk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/micahstubbs/midi4ahk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Here's a list of all exported functions in midi_in.dll with some explanation of how they (should)work.
 
 
